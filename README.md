@@ -4,27 +4,8 @@ Projeto simples em Python para classificar cogumelos como comestíveis ou veneno
 
 Como Executar:
 
-Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
-cd nome-do-repositorio
+Clone o repositório com o comando git clone https://github.com/seu-usuario/nome-do-repositorio.git e acesse a pasta do projeto com cd nome-do-repositorio. Em seguida, crie um ambiente virtual com python -m venv venv. No Windows, ative o ambiente com .\venv\Scripts\activate; no macOS ou Linux, use source venv/bin/activate.
 
-Crie e ative um ambiente virtual:
-python -m venv venv
-No Windows, ative com: .\venv\Scripts\activate
-No macOS/Linux, ative com: source venv/bin/activate
+Com o ambiente ativado, instale as dependências com pip install -r requirements.txt. Depois, execute o Jupyter com o comando jupyter lab.
 
-Instale as dependências:
-Primeiro, crie um arquivo "requirements.txt" com o conteúdo abaixo:
-pandas
-numpy
-matplotlib
-scikit-learn
-jupyterlab
-
-Depois, no terminal, instale com o comando:
-pip install -r requirements.txt
-
-Execute o Jupyter:
-jupyter lab
-
-Dentro do Jupyter, abra o arquivo "Tp-final.ipynb" e execute as células.
+Dentro do Jupyter, abra o arquivo "Tp-final.ipynb" e execute as células para rodar o projeto.
